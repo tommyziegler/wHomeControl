@@ -1,0 +1,14 @@
+<div class="container">
+	<table class="table table-hover">
+		<tbody>
+			<tr ng-repeat="switch in switches">
+				<td>
+					<h2>{{switch.name}}</h2>
+				    <button class="btn" ng-click="editSwitch(switch.id)">Edit</button>
+				    <button type="button" class="btn btn-danger" ng-click="deleteSwitch(switch.id)">Delete</button>
+				</td>
+			</tr>
+		</tbody>
+	 </table>
+	 <a type="button" class="btn btn-small" ng-click="createSwitch()">Create</a>	
+</div>

@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>Switch detail</h1>
+
+  <form novalidate="novalidate" class="form-horizontal">
+    
+    <div class="control-group">
+      
+      {{Switches[id].name}}
+
+      <label class="control-label" for="inputFirstName">Switch name {{Switches[id].name}}:</label>
+
+      <div class="controls">
+        <input type="text" id="inputFirstName">{{Switches[id].name}}</input>
+      </div>
+    </div>
+    
+
+
+    <div class="control-group">
+      <div class="controls">
+        <a ng-click="cancel()" class="btn btn-small">cancel</a>
+        <a ng-click="updateSwitch()" class="btn btn-small btn-primary">update</a>
+      </div>
+    </div>
+  </form>
+</div>
