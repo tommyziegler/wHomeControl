@@ -8,3 +8,11 @@ wHomeControl
 3.) Install wHomeControl
 
 <code>bash < <(curl -s https://raw.github.com/tommyziegler/wHomeControl-Installer/master/install.sh)</code>
+
+
+
+
+
+Subprojects can be found here:
+
+
